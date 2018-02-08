@@ -1,0 +1,169 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> form </TITLE>
+<style>
+table{
+height:649px;
+font-family:verdana;
+color:white;
+font-size:20px;
+border:1px solid green;
+width:300px;
+background-color:gray;
+
+}
+
+input{
+width:260px;
+height:30px;
+border:1px solid green;
+border-radius:5px;
+
+color:red;
+}
+
+
+input:hover{
+width:260px;
+height:30px;
+background-color:white;
+
+}
+
+select{
+
+width:260px;
+height:30px;
+border-radius:5px;
+
+}
+
+textarea{
+width:260px;
+}
+
+#button1{
+background-color:black;
+width:139px;
+height:49px;
+border:1px solid yellow;
+}
+#button1:hover{
+background-color:ivory;
+width:139px;
+height:49px;
+border:1px solid white;
+}
+#button2{
+background-color:black;
+width:139px;
+height:49px;
+border:3px solid yellow;
+}
+#button2:hover{
+
+width:139px;
+height:49px;
+border:3px solid white;
+}
+</style>
+</HEAD>
+
+<BODY>
+
+<form method="get">
+
+<table border="0px" width="" align="center" cellspacing="0px">
+
+<tr>
+<td>User Id</td>
+<td><input type="number" name="uid" placeholder="Enter user information"/></td>
+</tr>
+
+
+<tr>
+<td>User name</td>
+<td><input type="text" name="unm"/>
+</td>
+</tr>
+
+
+<tr>
+<td>Password</td>
+<td><input type="password" name="pwd"/></td>
+</tr>
+
+
+<tr>
+<td>Confirm_password</td>
+<td><input type="password" name="cpwd"/></td>
+</tr>
+
+
+
+<tr>
+<td>Email</td>
+<td><input type="email" name="email"/></td>
+</tr>
+
+
+<tr>
+<td>City</td>
+<td><select name="city">
+
+<option>....Select City....</option>
+<option>Mumbai</option>
+<option>Jaipur</option>
+<option> patna</option>
+<option>Chandigargh</option>
+<option>other</option>
+</select></td>
+</tr>
+
+
+<tr>
+<td>state</td>
+<td><select name="state">
+
+<option>....Select State....</option>
+<option>Maharastra</option>
+<option>rajsthan</option>
+<option> Bihar</option>
+<option>Punjab</option>
+<option>other</option>
+</select></td>
+</tr>
+
+
+<tr>
+<td>Documents</td>
+<td><select name="Document">
+<option>....Select document....</option>
+<option>Passport</option>
+<option>aadhar</option>
+<option> Dl</option>
+<option>Pancard</option>
+<option>other</option>
+</select></td>
+</tr>
+
+
+<tr>
+<td>Address</td>
+<td><textarea rows="8" cols="20"></textarea></td>
+</tr>
+
+
+<tr>
+<td align="right"><input type="submit" id="button1" value="Signup"/></td>
+<td align="left"><input type="reset" id="button2" value="Clear"/></td>
+</tr>
+
+
+</table>
+
+</form>
+
+</BODY>
+</HTML>

@@ -1,0 +1,20 @@
+<html>
+	<head>
+	<title>Definition List</title>
+	</head>
+	<body>
+	<dl>
+	<dt>Ameerpeet</dt>
+	<dd>Ameerppet is the hub of all the coaching centres for IT training. Here all the IT courses like Java,c ,Python and various IT Technologies are available at a very affordable fees. This place is also known as United States of Ameerpet USA.Name of the top Institutes in Ameerpet are
+	<ol>
+	<li>Durga Softwares
+	<ul><li>Web Technologies</li><li>Windows Technologies</li></ul>
+	</li>
+	
+	<li>Kelly Technologies</li>
+	<li>Naresh iTechnologies</li>	
+	</ol>
+	</dd>
+	</dl>
+	</body>
+</html>
