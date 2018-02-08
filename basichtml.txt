@@ -12,7 +12,8 @@
 	</li>
 	
 	<li>Kelly Technologies</li>
-	<li>Naresh iTechnologies</li>	
+	<li>Naresh iTechnologies</li>
+	<li>Durga Technologies</li>
 	</ol>
 	</dd>
 	</dl>
